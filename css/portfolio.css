@@ -1,0 +1,45 @@
+#filters .button{
+    margin: 5px;
+    background-color: #0FBE7C;
+    border: 0 none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 25px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+#filters {
+    text-align: center;
+}
+#filters .button:hover {
+    box-shadow: 0px 15px 10px -3px #000;
+}
+.isotope {
+    margin-top: 20px;
+}
+.isotope .element-item {
+    margin: 1%;
+    width: 31%;
+    height: auto;
+    border-radius: 10px;
+}
+.isotope .element-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.isotope .element-item:hover img {
+    box-shadow: 0px 10px 10px #000;
+
+}
